@@ -31,7 +31,14 @@ Certifique-se de que o ambiente virtual está ativado:
 
 ```bash
 # Na pasta raiz do projeto
+# Ambiente Linux e MacOS
 source venv/bin/activate
+
+# Para Windows (PowerShell)
+venv\Scripts\Activate.ps1
+
+# Para Windows (Command Prompt)
+venv\Scripts\activate.bat
 ```
 
 ## Como Executar
